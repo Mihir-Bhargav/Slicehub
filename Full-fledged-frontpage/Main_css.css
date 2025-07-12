@@ -1,0 +1,221 @@
+.div-NB {
+  font-family: "Courier New", Courier, monospace;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 25px;
+  text-decoration: none;
+}
+
+#my_account_logo {
+  text-decoration: none;
+  color: black;
+}
+
+#my_account_logo:hover {
+  color: #ffba08;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  transition-duration: 200ms;
+}
+
+#font_awesome_NB:hover {
+  color: #ffba08;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+#div-LP-NB {
+  text-decoration: none;
+  color: #000;
+}
+
+#div-LP-NB:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#div-LP-NB_1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#div-LP-NB_2:hover {
+  text-decoration: underline black;
+  cursor: pointer;
+}
+
+.div-NB-1 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+#img1 {
+  width: 250px;
+  height: 120px;
+  padding-bottom: 1%;
+  float: left;
+}
+
+#img2 {
+  min-width: 100%;
+  height: 140vh;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.landing-page {
+  font-family: cursive;
+  font-size: 17px;
+  /* marign: 15%; */
+  height: 30%;
+}
+
+#div-LP1 {
+  width: 45%;
+  border: 2px black solid;
+  padding: 20px;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 17px;
+  background-color: #ffb908ba;
+  border-radius: 20px;
+}
+
+#Button_LPdiv1 {
+  margin: 2%;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  font-family: cursive;
+  cursor: pointer;
+  position: relative;
+  animation-name: Button_LPdiv1;
+  z-index: index 1;
+}
+
+#Button_LPdiv1::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  background: linear-gradient(to bottom right, #ffba08, #d00000);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  padding: 4px;
+}
+/* Nice learning. SO, we can use the ::after tag to create a virtual version of the same tag which can be customized way more.  */
+
+#Button_LPdiv1:hover {
+  z-index: 0;
+}
+
+#div-LP2 {
+  width: 45%;
+  border: 2px black solid;
+  padding: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 17px;
+  background-color: #c3410ac9;
+  border-radius: 20px;
+}
+
+#Button_LPdiv2 {
+  margin: 2%;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  font-family: cursive;
+  cursor: pointer;
+  position: relative;
+  animation-name: Button_LPdiv1;
+  z-index: index 0;
+}
+
+#Button_LPdiv2::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  background: linear-gradient(to bottom right, #ffba08, #d00000);
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  padding: 4px;
+}
+/* Nice learning. SO, we can use the ::after tag to create a virtual version of the same tag which can be customized way more.  */
+
+#Button_LPdiv2:hover {
+  z-index: 0;
+}
+
+/* This part is for the login page */
+
+#login-page {
+  background: linear-gradient(to bottom, #ffe29a, #ff7e5f);
+}
+
+#positioning_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Log-P_div-1 {
+  text-align: center;
+  border: 2px black solid;
+  width: 40%;
+  background-color: rgba(211, 211, 211);
+  font-family: cursive;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+}
+
+.fixed_navbar {
+  position: fixed;
+  position: absolute;
+  min-width: 100%;
+}
+
+#button_for_login {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 60px;
+  font-family: cursive;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.username {
+  border-radius: 15px;
+  padding: 20px 120px;
+  margin: 14px;
+  font-family: cursive;
+  font-size: 17px;
+  text-align: center;
+}
